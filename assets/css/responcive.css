@@ -1,6 +1,35 @@
-@media screen and (max-width:600px) {   
-    
+@media screen and (max-width: 600px) {
+  .my_menu {
+    display: none;
+  }
+  nav {
+    padding: 30px;
+  }
+  .bar {
+    display: block;
+  }
+  .banner {
+    margin: 30px;
+  }
+  .banner_content {
+    padding: 30px;
+  }
+  .banner_content br {
+    display: none;
+  }
+  .form {
+    flex-direction: column;
+  }
+  .form input {
+    width: 100%;
+  }
+  .input {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .input i {
+    right: 50px;
+  }
 }
-@media screen and (min-width: 600px) and (max-width:992px) {
-
+@media screen and (min-width: 600px) and (max-width: 992px) {
 }
