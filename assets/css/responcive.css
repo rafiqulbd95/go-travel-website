@@ -54,7 +54,8 @@
   .our_services ,
   .why_choose_us,
   .newsletter_area,
-  .footer_area 
+  .footer_area,
+  .deals_discounts
   {
     padding: 30px;
 }
@@ -71,6 +72,15 @@
 }
 .newsletter_content{
   width: 100%;
+}
+.deals_discounts_content{
+  flex-direction: column-reverse;
+}
+.deals_discounts_item2 {
+  width: 100%;
+}
+.deals_discounts_item2 p span{
+  display: none;
 }
 }
 @media screen and (min-width: 600px) and (max-width: 992px) {
