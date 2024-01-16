@@ -18,8 +18,7 @@
     display: none;
   }
   .form,
-  .popular_tours
-  {
+  .popular_tours {
     flex-direction: column;
   }
   .form input {
@@ -32,11 +31,23 @@
   .input i {
     right: 50px;
   }
-.popular_tours {
-  padding: 24px;
-}
+  .popular_tours {
+    padding: 24px;
+  }
 
-
+  .destination_area {
+    padding: 30px;
+  }
+  .destination_area p br {
+    display: none;
+  }
+  .d-grid {
+    grid-template-columns:  1fr;
+    width: 100%;
+  }
+  .d-grid img{
+    width: 100%;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 992px) {
 }
