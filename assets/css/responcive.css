@@ -53,11 +53,14 @@
   }
   .our_services ,
   .why_choose_us,
-  .newsletter_area
+  .newsletter_area,
+  .footer_area 
   {
     padding: 30px;
 }
-.why_choose_us p br{
+.why_choose_us p,
+.footer_area p
+ br{
   display: none;
 }
 .why_choose_us_con {
