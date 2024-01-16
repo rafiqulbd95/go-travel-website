@@ -431,7 +431,14 @@ nav {
 .content-2 {
   background: url("../Images/dd2.png") no-repeat center;
 }
-
+.deals_discounts .btn{
+  border-radius: 8px;
+  text-align: center;
+}
+.d_btn{
+  text-align: center;
+  margin-top: 50px;
+}
 /* deals_discounts end */
 
 /* newsletter_area */
