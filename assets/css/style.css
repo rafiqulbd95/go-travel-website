@@ -523,6 +523,14 @@ nav {
   justify-content: center;
   align-items: center;
 }
+.social_icon a{
+  color: var(--secondary-color);
+  font-size: 20px;
+  transition: all 0.4s;
+}
+.social_icon a:hover{
+  color: var(--primary-color);
+}
 .copyright {
   padding-top: 50px;
 }
