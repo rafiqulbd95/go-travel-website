@@ -1,14 +1,16 @@
 @media screen and (max-width: 600px) {
-  h1{
+  h1 {
     font-size: 22px !important;
   }
-  h2, h3, h4{
+  h2,
+  h3,
+  h4 {
     font-size: 20px !important;
   }
-  p{
+  p {
     font-size: 14px !important;
   }
-  .btn{
+  .btn {
     font-size: 16px !important;
   }
   .my_menu {
@@ -32,8 +34,7 @@
   .form,
   .popular_tours,
   .our_services_content,
-  .newsletter_area
-  {
+  .newsletter_area {
     flex-direction: column;
   }
   .form input {
@@ -49,7 +50,7 @@
   .popular_tours {
     padding: 30px;
   }
-  .popular_tours_img img{
+  .popular_tours_img img {
     width: 100%;
   }
   .destination_area {
@@ -59,50 +60,56 @@
     display: none;
   }
   .d-grid {
-    grid-template-columns:  1fr;
+    grid-template-columns: 1fr;
     width: 100%;
   }
-  .d-grid img{
+  .d-grid img {
     width: 100%;
   }
-  .our_services ,
+  .our_services,
   .why_choose_us,
   .newsletter_area,
   .footer_area,
-  .deals_discounts
-  {
+  .deals_discounts {
     padding: 30px;
-}
-.why_choose_us p br,
-.footer_area p
- br{
-  display: none;
-}
-.why_choose_us_con {
-  grid-template-columns:1fr;
-}
-.item-3{
-  left: 0;
-}
-.newsletter_content{
-  width: 100%;
-}
-.deals_discounts_content{
-  flex-direction: column-reverse;
-  height: 500px;
-}
-.deals_discounts_item2 {
-  width: 87%;
-}
-.deals_discounts_item2 p span{
-  display: none;
-}
-.deals_discounts_item2 ul {
-  flex-wrap: wrap;
-}
-.deals_discounts_item2 p span{
-  display: none;
-}
+  }
+  .why_choose_us p br,
+  .footer_area p br {
+    display: none;
+  }
+  .why_choose_us_con {
+    grid-template-columns: 1fr;
+  }
+  .item-3 {
+    left: 0;
+  }
+  .newsletter_content {
+    width: 100%;
+  }
+  .deals_discounts_content {
+    flex-direction: column-reverse;
+    height: 500px;
+  }
+  .deals_discounts_item2 {
+    width: 87%;
+  }
+  .deals_discounts_item2 p span {
+    display: none;
+  }
+  .deals_discounts_item2 ul {
+    flex-wrap: wrap;
+  }
+  .deals_discounts_item2 p span {
+    display: none;
+  }
+  .img_cart {
+    bottom: 38px;
+  }
+  .img_cart h5 {
+    font-size: 15px;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 992px) {
+
+  
 }

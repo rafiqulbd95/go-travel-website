@@ -135,7 +135,6 @@ nav {
   background: rgba(255, 255, 255, 0.3);
 }
 
-
 .form input {
   padding-left: 20px;
   width: 174px;
@@ -215,7 +214,29 @@ nav {
 .popular_tours_content .btn {
   border-radius: 8px;
 }
-
+.newsletter_img {
+  position: relative;
+}
+.img_cart {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  bottom: 58px;
+  right: 10px;
+  background: var(--primary-color);
+  padding: 20px;
+  transform: rotate(-25deg);
+  border-radius: 8px;
+}
+.img_cart h3 {
+  font-size: 32px;
+  font-weight: 800;
+}
+.img_cart h5 {
+  padding-bottom: 5px;
+  font-size: 24px;
+  font-weight: 400;
+}
 
 /* popular_tours end */
 
@@ -398,19 +419,18 @@ nav {
   line-height: 26px;
 }
 
-.deals_discounts_item2 h4{
+.deals_discounts_item2 h4 {
   color: var(--primary-color);
   font-size: 20px;
   font-weight: 800;
   padding: 20px 0;
 }
-.deals_discounts_item2 .btn{
+.deals_discounts_item2 .btn {
   border-radius: 8px;
 }
-.content-2{
-  background: url('../Images/dd2.png') no-repeat center;
+.content-2 {
+  background: url("../Images/dd2.png") no-repeat center;
 }
-
 
 /* deals_discounts end */
 
