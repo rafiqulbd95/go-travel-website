@@ -18,7 +18,9 @@
     display: none;
   }
   .form,
-  .popular_tours {
+  .popular_tours,
+  .our_services_content
+  {
     flex-direction: column;
   }
   .form input {
@@ -48,6 +50,9 @@
   .d-grid img{
     width: 100%;
   }
+  .our_services {
+    padding: 30px;
+}
 }
 @media screen and (min-width: 600px) and (max-width: 992px) {
 }
