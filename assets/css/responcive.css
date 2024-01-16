@@ -19,7 +19,8 @@
   }
   .form,
   .popular_tours,
-  .our_services_content
+  .our_services_content,
+  .newsletter_area
   {
     flex-direction: column;
   }
@@ -51,7 +52,8 @@
     width: 100%;
   }
   .our_services ,
-  .why_choose_us
+  .why_choose_us,
+  .newsletter_area
   {
     padding: 30px;
 }
@@ -63,6 +65,9 @@
 }
 .item-3{
   left: 0;
+}
+.newsletter_content{
+  width: 100%;
 }
 }
 @media screen and (min-width: 600px) and (max-width: 992px) {

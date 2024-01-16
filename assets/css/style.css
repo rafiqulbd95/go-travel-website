@@ -331,13 +331,66 @@ nav {
   font-weight: 400;
   line-height: 26px;
 }
-.item-2{
-  border: 1px solid rgba(41, 206, 246, 0.20);
+.item-2 {
+  border: 1px solid rgba(41, 206, 246, 0.2);
   background: rgba(41, 206, 246, 0.05);
 }
-.item-3{
+.item-3 {
   position: relative;
   bottom: 0;
   left: 50%;
 }
 /* why_choose_us end */
+
+/* newsletter_area */
+.newsletter_area {
+  padding: 50px 135px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter_content h2 {
+  color: var(--secondary-color);
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+.newsletter_content {
+  border-radius: 8px;
+  padding: 30px;
+  border: 1px solid var(--primary-color);
+}
+.newsletter_content hr {
+  background: rgba(19, 19, 24, 0.05);
+}
+.newsletter_content p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+.newsletter_content .form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.newsletter_content input::placeholder {
+  color: rgba(19, 19, 24, 0.3);
+}
+.newsletter_content input {
+  color: var(--color-1);
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+}
+.newsletter_content input[type="submit"] {
+  color: #fff;
+  background: var(--primary-color);
+  font-size: 20px;
+  font-weight: 800;
+}
+/* newsletter_area end */
