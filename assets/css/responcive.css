@@ -1,15 +1,27 @@
 @media screen and (max-width: 600px) {
+  h1{
+    font-size: 22px !important;
+  }
+  h2, h3, h4{
+    font-size: 20px !important;
+  }
+  p{
+    font-size: 14px !important;
+  }
+  .btn{
+    font-size: 16px !important;
+  }
   .my_menu {
     display: none;
   }
   nav {
-    padding: 30px;
+    padding: 15px 30px;
   }
   .bar {
     display: block;
   }
   .banner {
-    margin: 30px;
+    margin: 15px 30px;
   }
   .banner_content {
     padding: 30px;
@@ -29,15 +41,17 @@
   }
   .input {
     width: 100%;
-    padding: 0 30px;
+    padding-right: 30px;
   }
   .input i {
     right: 50px;
   }
   .popular_tours {
-    padding: 24px;
+    padding: 30px;
   }
-
+  .popular_tours_img img{
+    width: 100%;
+  }
   .destination_area {
     padding: 30px;
   }
@@ -59,7 +73,7 @@
   {
     padding: 30px;
 }
-.why_choose_us p,
+.why_choose_us p br,
 .footer_area p
  br{
   display: none;
@@ -75,9 +89,16 @@
 }
 .deals_discounts_content{
   flex-direction: column-reverse;
+  height: 500px;
 }
 .deals_discounts_item2 {
-  width: 100%;
+  width: 87%;
+}
+.deals_discounts_item2 p span{
+  display: none;
+}
+.deals_discounts_item2 ul {
+  flex-wrap: wrap;
 }
 .deals_discounts_item2 p span{
   display: none;
