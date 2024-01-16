@@ -265,22 +265,21 @@ nav {
 /* destination_area end */
 
 /* our_services */
-.our_services{
+.our_services {
   padding: 80px 135px;
   text-align: center;
 }
-.our_services_content{
+.our_services_content {
   display: flex;
   gap: 24px;
 }
 
-
-.our_services_items{
+.our_services_items {
   margin-top: 50px;
   padding: 30px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.our_services_items h3{
+.our_services_items h3 {
   padding: 10px 0;
   font-weight: 800;
   font-size: 24px;
@@ -293,3 +292,52 @@ nav {
 }
 
 /* our_services end */
+
+/* why_choose_us */
+.why_choose_us {
+  padding: 0 135px;
+  text-align: center;
+}
+.why_choose_us p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 20px 0;
+}
+.why_choose_us_con {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+.why_choose_us_items {
+  padding: 30px;
+  text-align: left;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.why_choose_us_items h3 {
+  color: var(--secondary-color);
+  font-size: 24px;
+  font-weight: 800;
+  padding-top: 20px;
+}
+.why_choose_us_items p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.item-2{
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+}
+.item-3{
+  position: relative;
+  bottom: 0;
+  left: 50%;
+}
+/* why_choose_us end */

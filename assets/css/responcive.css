@@ -50,8 +50,19 @@
   .d-grid img{
     width: 100%;
   }
-  .our_services {
+  .our_services ,
+  .why_choose_us
+  {
     padding: 30px;
+}
+.why_choose_us p br{
+  display: none;
+}
+.why_choose_us_con {
+  grid-template-columns:1fr;
+}
+.item-3{
+  left: 0;
 }
 }
 @media screen and (min-width: 600px) and (max-width: 992px) {
