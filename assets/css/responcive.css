@@ -17,7 +17,9 @@
   .banner_content br {
     display: none;
   }
-  .form {
+  .form,
+  .popular_tours
+  {
     flex-direction: column;
   }
   .form input {
@@ -30,6 +32,11 @@
   .input i {
     right: 50px;
   }
+.popular_tours {
+  padding: 24px;
+}
+
+
 }
 @media screen and (min-width: 600px) and (max-width: 992px) {
 }
