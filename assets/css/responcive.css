@@ -34,7 +34,9 @@
   .form,
   .popular_tours,
   .our_services_content,
-  .newsletter_area {
+  .newsletter_area, 
+  .perfect_place
+  {
     flex-direction: column;
   }
   .form input {
@@ -70,7 +72,9 @@
   .why_choose_us,
   .newsletter_area,
   .footer_area,
-  .deals_discounts {
+  .deals_discounts,
+  .perfect_place
+  {
     padding: 30px;
   }
   .why_choose_us p br,
@@ -107,6 +111,12 @@
   }
   .img_cart h5 {
     font-size: 15px;
+  }
+  .perfect_place_content{
+    width: 100%;
+  }
+  .perfect_place_img{
+    width: 100%;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 992px) {
